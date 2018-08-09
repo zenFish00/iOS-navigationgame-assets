@@ -16,7 +16,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.navigationItem.rightBarButtonItem;
+    //self.navigationItem.rightBarButtonItem;
+        // Do any additional setup after loading the view, typically from a nib.
+    
+    UIBarButtonItem *item = [[UIBarButtonItem alloc] initWithTitle:@"Home" style:UIBarButtonItemStylePlain target:self action:@selector(showPicker)];
+    
+    [self.navigationItem setRightBarButtonItem:item animated:YES];
+}
+
+- (void) showPicker{
+    [self.navigationController popToRootViewControllerAnimated:YES];
+    
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 

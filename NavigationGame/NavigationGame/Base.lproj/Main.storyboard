@@ -27,7 +27,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Coat Room"/>
                                 <connections>
-                                    <segue destination="amQ-Yt-DVx" kind="show" id="CSf-jm-X5I"/>
+                                    <segue destination="INf-w7-dlh" kind="show" id="GuJ-8v-2hA"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -38,64 +38,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="898" y="-636"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="qER-Ld-9cs">
-            <objects>
-                <viewController id="amQ-Yt-DVx" customClass="ViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Ji1-ZQ-my6">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kitchen.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="t68-8f-IUc">
-                                <rect key="frame" x="0.0" y="64" width="375" height="437"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TC4-d1-aT5">
-                                <rect key="frame" x="132" y="537" width="110" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Coat Room"/>
-                                <connections>
-                                    <segue destination="hfO-Tq-VZs" kind="show" id="60w-NQ-ahk"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="TTJ-XE-xfG"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="XEy-TB-1HX"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="gr9-mW-ShP" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="897" y="158"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="rrR-T8-cgd">
-            <objects>
-                <viewController id="hfO-Tq-VZs" customClass="ViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="yBQ-Nr-tbX">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="labratory.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Lzd-gJ-jC4">
-                                <rect key="frame" x="0.0" y="64" width="375" height="437"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UPp-PR-nzi">
-                                <rect key="frame" x="132" y="537" width="110" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Coat Room"/>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="Dq1-eC-t0h"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="I6I-qd-KhG"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="oSi-2X-dZ6" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="897" y="911"/>
+            <point key="canvasLocation" x="610" y="-628"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="3FJ-DL-4ao">
@@ -114,7 +57,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Library"/>
                                 <connections>
-                                    <segue destination="BOJ-sV-Gs1" kind="presentation" id="j1U-x7-Zwz"/>
+                                    <segue destination="euc-94-Kbq" kind="show" id="yCG-Uz-fx9"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xEz-g2-Dfm">
@@ -122,7 +65,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Dining Room"/>
                                 <connections>
-                                    <segue destination="euc-94-Kbq" kind="presentation" id="65f-JC-P5E"/>
+                                    <segue destination="BOJ-sV-Gs1" kind="show" id="X13-bc-EAC"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Xd-4o-bE6">
@@ -130,7 +73,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Stairs Up"/>
                                 <connections>
-                                    <segue destination="giJ-Nf-jLE" kind="presentation" id="ROw-EN-yTG"/>
+                                    <segue destination="giJ-Nf-jLE" kind="show" id="Swf-re-Tct"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -140,12 +83,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vFv-Nt-cAt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1773.5999999999999" y="-628.33583208395805"/>
+            <point key="canvasLocation" x="1434" y="-628"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="YtN-ec-XcJ">
             <objects>
-                <viewController id="giJ-Nf-jLE" sceneMemberID="viewController">
+                <viewController id="giJ-Nf-jLE" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4RV-ko-cMv">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -185,12 +128,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Aew-8h-gzb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1924" y="263"/>
+            <point key="canvasLocation" x="1434" y="197"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="AJe-k1-CCf">
             <objects>
-                <viewController id="JFX-7a-JD9" sceneMemberID="viewController">
+                <viewController id="JFX-7a-JD9" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="E0R-a1-Lzm">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -206,12 +149,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cF2-iO-pKt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2435" y="1018"/>
+            <point key="canvasLocation" x="1433" y="922"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="USp-8j-dtx">
             <objects>
-                <viewController id="S31-fk-HYM" sceneMemberID="viewController">
+                <viewController id="S31-fk-HYM" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uAR-xG-n1O">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -227,12 +170,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BE3-kn-cxG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3215" y="403"/>
+            <point key="canvasLocation" x="2223" y="197"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="aer-Z5-dDF">
             <objects>
-                <viewController id="euc-94-Kbq" sceneMemberID="viewController">
+                <viewController id="euc-94-Kbq" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6m2-29-jcs">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -256,12 +199,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Kf-Eg-hhY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2759" y="-1289"/>
+            <point key="canvasLocation" x="2222" y="-1304"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="EN1-jb-wum">
             <objects>
-                <viewController id="Xfv-Wu-50I" sceneMemberID="viewController">
+                <viewController id="Xfv-Wu-50I" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="L0t-EW-fuW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -277,12 +220,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DaD-3C-IgM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3480.8000000000002" y="-2146.776611694153"/>
+            <point key="canvasLocation" x="3841" y="-2510"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="40H-wf-IvA">
             <objects>
-                <viewController id="CYl-l5-xR8" sceneMemberID="viewController">
+                <viewController id="CYl-l5-xR8" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1LA-NB-Ffo">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -322,12 +265,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xE6-ll-UBf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3764" y="-1303"/>
+            <point key="canvasLocation" x="3094" y="-1305"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="0SN-AS-6Ki">
             <objects>
-                <viewController id="Z5x-RX-rfO" sceneMemberID="viewController">
+                <viewController id="Z5x-RX-rfO" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eGa-Ff-utg">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -351,12 +294,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g3E-wm-38h" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4779" y="-1750"/>
+            <point key="canvasLocation" x="4625" y="-1979"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="gtK-gX-pki">
             <objects>
-                <viewController id="bhx-lf-EI5" sceneMemberID="viewController">
+                <viewController id="bhx-lf-EI5" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0zP-TU-Hfn">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -372,12 +315,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qs3-fq-VvW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5663" y="-2148"/>
+            <point key="canvasLocation" x="5407" y="-1979"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="THn-gt-lye">
             <objects>
-                <viewController id="BOJ-sV-Gs1" sceneMemberID="viewController">
+                <viewController id="BOJ-sV-Gs1" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Fpo-UJ-XNt">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -409,12 +352,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AxI-Vt-G0b" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2881" y="-460"/>
+            <point key="canvasLocation" x="2330" y="-628"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="rdx-ee-c5P">
             <objects>
-                <viewController id="kf2-iR-4c4" sceneMemberID="viewController">
+                <viewController id="kf2-iR-4c4" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XJW-jX-NhD">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -438,12 +381,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rL4-zU-27e" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3795" y="-456"/>
+            <point key="canvasLocation" x="3094" y="-628"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="YTj-yL-jAe">
             <objects>
-                <viewController id="x6w-mD-Uhg" sceneMemberID="viewController">
+                <viewController id="x6w-mD-Uhg" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0CH-hX-8Bd">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -459,12 +402,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LVi-sj-Tzb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4701" y="-459"/>
+            <point key="canvasLocation" x="3842" y="-628"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="4m7-PO-4kT">
             <objects>
-                <viewController id="Ln1-QH-Axv" sceneMemberID="viewController">
+                <viewController id="Ln1-QH-Axv" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WIS-nh-WnM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -488,12 +431,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="t6y-Fz-iGD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5601" y="-1118"/>
+            <point key="canvasLocation" x="4009" y="-1306"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ns0-3Y-l1D">
             <objects>
-                <viewController id="gdO-Sv-H82" sceneMemberID="viewController">
+                <viewController id="gdO-Sv-H82" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="K0L-GY-RWx">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -509,11 +452,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xkm-TB-QpX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6689" y="-1094"/>
+            <point key="canvasLocation" x="4868" y="-1305"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="QYa-QG-gNR">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8O0-e1-imb" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="fY3-Ee-OHD" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="n7y-RR-2oU">
@@ -525,9 +469,8 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="oMz-AC-Nur"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="8O0-e1-imb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6" y="-628"/>
+            <point key="canvasLocation" x="-273" y="-628"/>
         </scene>
     </scenes>
     <resources>
